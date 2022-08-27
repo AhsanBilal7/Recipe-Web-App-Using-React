@@ -5,10 +5,14 @@ const Apifun = async (prop, setData, setLoad) => {
 
   let result = await fetch(
     `https://www.themealdb.com/api/json/v1/1/search.php?s=${prop}`
-  )
-    .then((response) => {
-      setData(response.json()["meals"]);
+  ).then((response) => {
+     return response = response.json()
+    }).then((data)=>{
+      data = data.meals
+      console.log(data)
+      setData(data);
       setLoad(true);
+
     })
     .catch((err) => {
       console.log(err);

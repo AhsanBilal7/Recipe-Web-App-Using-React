@@ -8,7 +8,7 @@ import MuiCard from "../Mui-Card/MuiCard";
 function Main() {
   const [data, setData] = useState(null);
   const [load, setLoad] = useState(false);
-  const [title, setTitle] = useState("cake");
+  const [title, setTitle] = useState(null);
   const [displayFlag, setDisplayFlag] = useState(false);
   const [apiLoad, setApiLoad] = useState(false);
   useEffect(() => {
