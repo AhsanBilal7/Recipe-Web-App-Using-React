@@ -1,0 +1,54 @@
+p,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  font-family: "poppins";
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 10px;
+  width: 20%;
+  border-radius: 60px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 20px auto;
+}
+.inputTag > input {
+  outline: none !important;
+  width: 80%;
+  border-radius: 60px;
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(244, 250, 255);
+}
+.inputTag {
+  /* border: 1px solid red; */
+  border-radius: 60px;
+  background-color: rgb(244, 250, 255);
+  border: 2px solid rgb(219, 239, 255);
+  display: flex;
+  justify-content: center;
+  width: 55vw;
+  height: 7vh;
+}
+.cardContainer {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
